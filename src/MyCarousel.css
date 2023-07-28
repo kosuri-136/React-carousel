@@ -1,0 +1,94 @@
+/* MyCarousel.css
+
+
+.carousel-root {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .carousel .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+  }
+ 
+  .carousel .slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .carousel .legend {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+   */
+
+   /* MyCarousel.css */
+
+/* Styling for the Carousel container */
+.carousel-root {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+/* Styling for the Carousel slides */
+.carousel .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+/* Styling for the slide images */
+.carousel .slide img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Styling for the slide legends/captions */
+.carousel .legend {
+  color: #fff;
+  background-color: #000;
+  padding: 6px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Additional styling for the image previews */
+.image-preview {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.image-preview img {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #f0f0f0;
+  transition: border-color 0.3s;
+}
+
+.image-preview img.active {
+  border-color: #ffa2a2;
+}
+
+/* Additional styling for the image box */
+.image-box {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.image-box img {
+  max-width: 300px;
+  height: 200px;
+}
